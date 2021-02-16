@@ -76,7 +76,7 @@ margin:10px auto;
 
 .btn1{
 font-weight:bold;
-font-size:;
+font-size:20px;
 border:solid 5px goldenrod;
 border-width:5px;
 width:820px;
@@ -86,19 +86,6 @@ margin:40px auto;
 padding-top:30px;
 color:white;
 background-color:goldenrod;
-						}
-
-.btn2{
-font-weight:bold;
-font-size:5em;
-border:solid 5px #339933;
-border-width:5px;
-width:820px;
-height:150px;
-text-align:center;
-margin:20px auto;
-padding-top:30px;
-color:white;	background-color:#339933;
 						}
 
 .second-wrapper p{
@@ -213,7 +200,7 @@ padding-top:15px;
 .footer-text{
 	color:white;
 	text-align:center;
-	font-size:;
+	font-size:20px;
 	}
 
 
@@ -228,7 +215,7 @@ text-align:center;
 color:white;
 background-color:goldenrod;  cursor: pointer; line-height: normal; text-decoration: none;
 border: 2px solid transparent;
-padding: 10px 10px; font-size:;
+padding: 10px 10px; font-size:20px;
 margin:20px auto;
 display: flex; justify-content: center; align-items: center;
 position: relative; overflow: hidden;
