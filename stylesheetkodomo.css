@@ -5,3 +5,278 @@ body{
 .header{
   background-color:goldenrod;
 }
+<style>
+body{
+font-size:18px;
+margin:5px 5px;
+font-family:sans-serif;
+	}
+
+
+body{
+ animation:fadeIn 9s ease 0s 1 normal;
+ -webkit-animation:fadeIn 7s ease 0s 1 normal;
+}
+@keyframes fadeIn{
+  0%{ opacity:0 }
+  100%{opacity:1}
+}
+  @-webkit-keyframes fadeIn{
+    0%{opacity: 0}
+    100%{opacity:1}
+}
+
+a{
+color:white;
+	}
+
+.header{
+width:100%;
+background-color:goldenrod;
+height:200px;
+border-radius:30px 30px 0px 0px;
+		}
+
+.header-logo{
+color:white;
+text-align:center;
+font-size:85px;
+font-weight:bold;
+padding-top:5px;
+text-shadow:#666600 2px 2px 2px;
+			}
+
+
+h1{	color:goldenrod;
+font-size:65px;
+font-weight:;
+font-style:italic;
+text-align:center;
+padding:25px 20px;
+}
+
+#box-title{
+font-size:;
+	}
+
+.box{
+margin:30px 15px;
+background-color:white;
+font-size:;
+	}
+
+
+
+
+
+
+
+.text-wrapper{
+margin:10px auto;
+
+	}
+
+#link{
+	color:black;
+	}
+
+.btn1{
+font-weight:bold;
+font-size:70px;
+border:solid 5px goldenrod;
+border-width:5px;
+width:820px;
+height:150px;
+text-align:center;
+margin:40px auto;
+padding-top:30px;
+color:white;
+background-color:goldenrod;
+						}
+
+.btn2{
+font-weight:bold;
+font-size:5em;
+border:solid 5px #339933;
+border-width:5px;
+width:820px;
+height:150px;
+text-align:center;
+margin:20px auto;
+padding-top:30px;
+color:white;	background-color:#339933;
+						}
+
+.second-wrapper p{
+font-size:48px;
+text-align:center;
+font-weight:bold;	background-color:pink;
+width:820px;
+margin:20px auto;
+color:white;
+text-shadow:#666600 1px 1px 1px;
+					}
+
+.text1{	background-color:;
+text-align:center;
+font-weight:bold;
+font-size:24px;
+padding:25px 25px;
+margin:25px auto;
+		}
+
+.third-wrapper{
+text-align:center;
+     }
+
+.third-wrapper img{
+text-align:center;
+margin:5px auto;
+border:none;
+							}
+
+.address-wrapper{
+text-align:center;
+background-color:;
+padding:5px 5px;
+margin:5px auto;
+font-size:;
+color:;
+						}
+
+.adtext{
+font-weight:bold;
+font-size:;
+text-align:center;
+padding:5px 10px;
+margin:5px auto;
+width:650px;
+								}
+
+#add{
+	color:black;
+	}
+
+.boranthia-text{
+text-align:center;
+font-size:;
+font-weight:bold;
+	}
+.tecktext a{
+color:black;
+}
+
+.tecktext a{
+color:black;
+}
+
+.tecktext{
+text-align:center;
+font-size:;
+font-weight:bold;
+padding:15px 15px;
+margin:20px;}
+
+.tecktext img{
+border:solid 5px pink;
+	}
+
+#T1{
+text-shadow:#666600 1px 1px 1px;
+font-weight:bold;	background-color:#cc9933;
+text-align:center;
+color:white;
+margin:0px auto;
+font-size:;
+											}
+
+#abc{
+text-shadow:#666600 1px 1px 1px;
+font-weight:bold;	background-color:#cc9933;
+text-align:center;
+color:white;
+margin:0px auto;
+font-size:;
+								}
+
+
+footer{
+width:100%;
+background-color:goldenrod;
+height:1300px;
+border-radius:0px 0px 30px 30px;
+}
+
+.footer-logo{
+color:white;
+text-align:center;
+font-size:;
+font-weight:bold;
+text-shadow:#666600 2px 2px 2px;
+padding-top:15px;
+			}
+
+.footer-text{
+	color:white;
+	text-align:center;
+	font-size:;
+	}
+
+
+#teck{
+color:white;
+	}
+
+.btn-shine {
+height:100px;
+width:680px;
+text-align:center;
+color:white;
+background-color:goldenrod;  cursor: pointer; line-height: normal; text-decoration: none;
+border: 2px solid transparent;
+padding: 10px 10px; font-size:52px;
+margin:20px auto;
+display: flex; justify-content: center; align-items: center;
+position: relative; overflow: hidden;
+}
+
+.btn-shine:hover{ color:white; } /* ボタンを光らせる */ .btn-shine:before { /*光るアニメーション用*/
+animation: shine 6s ease-in-out infinite;/*数字を変更することで光る間隔が変更*/
+background-color: #fff; content: " "; height: 100%; left: 0; opacity: 0; position: absolute; top: -180px; transform: rotate(45deg);
+width: 40px; }
+
+ @keyframes shine { 0% { transform: scale(0) rotate(45deg); opacity: 0; } 80% { transform: scale(0) rotate(45deg); opacity: 0.5; } 81% { transform: scale(4) rotate(45deg); opacity: 1; } 100% { transform: scale(50) rotate(45deg);
+opacity: 0; } }
+
+
+.header{
+border-radius: 5px 5px 0 0;
+width:100%;
+background-color:;
+height:140px;
+cursor: pointer; line-height: normal;  transparent;
+position: relative; overflow: hidden;
+}
+
+.header:hover{ color: #fff; } /* ボタンを光らせる */ .header:before { /*光るアニメーション用*/
+animation: shine 6s ease-in-out infinite;/*数字を変更することで光る間隔が変更*/ background-color: #fff; content: " "; height: 100%; left: 0; opacity: 0; position: absolute; top: -180px; transform: rotate(45deg);
+width: 40px; }
+
+
+>footer{
+border-radius: 5px 5px 0 0;
+width:100%;	background-color:deeppink;
+height:1350px;
+cursor: pointer; line-height: normal;  transparent;
+position: relative; overflow: hidden;
+}
+
+>footer:hover{ color: #fff; } /* ボタンを光らせる */
+>footer:before { /*光るアニメーション用*/
+animation: shine 10s ease-in-out infinite;/*数字を変更することで光る間隔が変更*/
+background-color: #fff; content: " "; height: 100%; left: 0; opacity: 0; position: absolute; top: -180px; transform: rotate(45deg);
+width: 40px; }
+
+
+
+</style>
